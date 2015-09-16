@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>RGB LED Control with sliders</title>
+  <title>RGB LED Auto Control</title>
   <link rel="stylesheet" href="//code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css">
   <script src="//code.jquery.com/jquery-1.10.2.js"></script>
   <script src="//code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
@@ -17,10 +17,18 @@
    
   <div id="swatch" class="ui-widget-content ui-corner-all"></div>
 
+      
+  <div id="clickbuttons">
+    <button onclick="startTimer()">Start/Resume</button> 
+    <button onclick="pause()">Pause</button> 
+    <button onclick="abortTimer()">Stop</button>
+  </div>
+
   <div id="footer">
+
     <ul>
       <li>
-        <a href="auto-slider.html">Auto RGB slider</a>
+        <a href="index.html">RGB slider</a>
       </li>
     </ul>
   </div>

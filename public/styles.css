@@ -4,14 +4,30 @@
   float: left;
   clear: left;
   width: 300px;
-  margin: 15px;
+  margin: 20px;
 }
 #swatch {
   width: 120px;
   height: 100px;
-  margin-top: 18px;
+  margin-top: 20px;
   margin-left: 350px;
   background-image: none;
+}
+#footer {
+  float: left;
+  clear: left;
+    width: 420px;
+    height: 200px;
+    margin-top: 108px;
+    margin-left: 1px;
+    background-image: none;
+}
+#clickbuttons {
+  float: left;
+  clear: left;
+    width: 420px;
+    margin: 20px;
+    background-image: none;
 }
 #red .ui-slider-range { background: #ef2929; }
 #red .ui-slider-handle { border-color: #ef2929; }
