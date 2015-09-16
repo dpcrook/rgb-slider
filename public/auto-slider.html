@@ -19,16 +19,22 @@
 
       
   <div id="clickbuttons">
-    <button onclick="startTimer()">Start/Resume</button> 
-    <button onclick="pause()">Pause</button> 
-    <button onclick="abortTimer()">Stop</button>
+    <button class="big" onclick="startTimer()">Start/Resume</button> 
+    <button class="big" onclick="pause()">Pause</button> 
+    <button class="big" onclick="abortTimer()">Stop</button>
   </div>
 
+  <!-- activate the jquery! -->
+  <script>
+    $( "button" ).button();
+  </script>
+
+  
   <div id="footer">
 
     <ul>
       <li>
-        <a href="index.html">RGB slider</a>
+        <a href="index.html">Demo 1: RGB slider</a>
       </li>
     </ul>
   </div>

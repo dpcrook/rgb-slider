@@ -133,10 +133,10 @@ var myColor = {r: 0, g:0 , b:0};
 var startAuto = false;
 
 // number of milliseconds between color change calls
-var interval = 100;
+var interval = 200;
 
 // number of steps along the HSV scale
-my_state.autoNumberOfSteps = 128; 
+my_state.autoNumberOfSteps = 64; 
 
 
 // starting value
@@ -151,7 +151,7 @@ my_state.value = 1.0;
 my_state.countUp = true;
 
 // different color strategy
-my_state.colorStrategy = 1;
+my_state.colorStrategy = 2;
 
 
 function colorIncrement() {

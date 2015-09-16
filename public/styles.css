@@ -9,24 +9,22 @@
 #swatch {
   width: 120px;
   height: 100px;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-left: 350px;
   background-image: none;
 }
 #footer {
   float: left;
   clear: left;
-    width: 420px;
+    width: 320px;
     height: 200px;
-    margin-top: 108px;
-    margin-left: 1px;
+    margin-top: 60px;
     background-image: none;
 }
 #clickbuttons {
   float: left;
   clear: left;
-    width: 420px;
-    margin: 20px;
+    margin: 25px;
     background-image: none;
 }
 #red .ui-slider-range { background: #ef2929; }
