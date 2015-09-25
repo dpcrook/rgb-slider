@@ -1,6 +1,7 @@
 /* jshint undef: true, node: true */
 
 var express = require('express');
+var ip = require('ip');
 var piblaster = require('pi-blaster.js');
 var path = require('path');
 var app = express();
@@ -64,6 +65,8 @@ app.get('/blue/:value', function (req, res) {
 var server = app.listen(3000, function () {
     var host = server.address().address;
     var port = server.address().port;
-    console.log('RGB LED Slider listening at http://%s:%s', host, port);
+    var addr = ip.address();
+    // console.dir(addr);
+    console.log('RGB LED Slider listening at http://%s:%s', addr, port);
 });
 

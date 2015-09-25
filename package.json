@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.11.2",
+    "ip": "^1.0.1",
     "pi-blaster.js": "0.0.2"
   }
 }
